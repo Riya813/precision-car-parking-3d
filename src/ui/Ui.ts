@@ -126,6 +126,7 @@ export class Ui {
       <h1>PRECISION<br><span class="gold">CAR PARKING 3D</span></h1>
       <p id="menustars"></p>
       <button class="bigbtn" id="m-play">PLAY</button>
+      <a class="bigbtn alt" href="https://krazic.com/" target="_blank" rel="noopener noreferrer">MORE GAMES</a>
       <p>Arrow keys drive · Space brakes · pause / reset / sound buttons in-game</p>`);
     menu.querySelector('#m-play')!.addEventListener('click', () => { Sfx.start(); this.showSelect(); });
 
